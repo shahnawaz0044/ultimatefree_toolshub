@@ -1,0 +1,345 @@
+[
+ {
+  "id": "json-formatter",
+  "slug": "json-formatter-and-validator",
+  "cat": "Developer",
+  "name": "JSON Formatter & Validator",
+  "desc": "Format, minify and validate JSON."
+ },
+ {
+  "id": "base64",
+  "slug": "base64-encoder-decoder",
+  "cat": "Developer",
+  "name": "Base64 Encoder / Decoder",
+  "desc": "Encode or decode text as Base64, Unicode-safe."
+ },
+ {
+  "id": "url-coder",
+  "slug": "url-encoder-decoder",
+  "cat": "Developer",
+  "name": "URL Encoder / Decoder",
+  "desc": "Percent-encode or decode URLs and query strings."
+ },
+ {
+  "id": "jwt",
+  "slug": "jwt-decoder",
+  "cat": "Developer",
+  "name": "JWT Decoder",
+  "desc": "Read the header and payload of a JSON Web Token. The signature is not verified."
+ },
+ {
+  "id": "uuid",
+  "slug": "uuid-generator",
+  "cat": "Developer",
+  "name": "UUID Generator",
+  "desc": "Generate random v4 UUIDs."
+ },
+ {
+  "id": "regex",
+  "slug": "regex-tester",
+  "cat": "Developer",
+  "name": "Regex Tester",
+  "desc": "List every match of a pattern in your text. Pattern goes on the first line, text below."
+ },
+ {
+  "id": "hash",
+  "slug": "hash-generator",
+  "cat": "Developer",
+  "name": "Hash Generator",
+  "desc": "SHA-1, SHA-256, SHA-512 of any text."
+ },
+ {
+  "id": "password",
+  "slug": "password-generator",
+  "cat": "Developer",
+  "name": "Password Generator",
+  "desc": "Strong random passwords from your browser's secure random source."
+ },
+ {
+  "id": "keyword-density",
+  "slug": "keyword-density-checker",
+  "cat": "Marketing",
+  "name": "Keyword Density Checker",
+  "desc": "Find the most-used words and phrases in your copy."
+ },
+ {
+  "id": "robots",
+  "slug": "robots-txt-generator",
+  "cat": "Marketing",
+  "name": "Robots.txt Generator",
+  "desc": "Build a robots.txt file."
+ },
+ {
+  "id": "meta-preview",
+  "slug": "meta-tag-generator",
+  "cat": "Marketing",
+  "name": "Meta Tag Generator",
+  "desc": "Turn a title and description into ready-to-paste HTML meta tags. Title on line 1, description on line 2, URL on line 3."
+ },
+ {
+  "id": "hashtags",
+  "slug": "hashtag-generator",
+  "cat": "Marketing",
+  "name": "Hashtag Generator",
+  "desc": "Turn keywords (one per line or comma-separated) into hashtags."
+ },
+ {
+  "id": "loan",
+  "slug": "loan-calculator",
+  "cat": "Business",
+  "name": "Loan Calculator",
+  "desc": "Monthly payment, total interest and total cost."
+ },
+ {
+  "id": "roi",
+  "slug": "roi-calculator",
+  "cat": "Business",
+  "name": "ROI Calculator",
+  "desc": "Return on investment and profit."
+ },
+ {
+  "id": "profit",
+  "slug": "profit-margin-calculator",
+  "cat": "Business",
+  "name": "Profit Margin Calculator",
+  "desc": "Profit, margin and markup from cost and price."
+ },
+ {
+  "id": "invoice",
+  "slug": "invoice-generator",
+  "cat": "Business",
+  "name": "Invoice Generator",
+  "desc": "Fill in the details, then save or print as PDF."
+ },
+ {
+  "id": "bmi",
+  "slug": "bmi-calculator",
+  "cat": "Daily Life",
+  "name": "BMI Calculator",
+  "desc": "Body mass index from weight and height."
+ },
+ {
+  "id": "age",
+  "slug": "age-calculator",
+  "cat": "Daily Life",
+  "name": "Age Calculator",
+  "desc": "Exact age in years, months and days."
+ },
+ {
+  "id": "units",
+  "slug": "unit-converter",
+  "cat": "Daily Life",
+  "name": "Unit Converter",
+  "desc": "Length, weight, data size and time."
+ },
+ {
+  "id": "color",
+  "slug": "color-converter",
+  "cat": "Daily Life",
+  "name": "Color Converter",
+  "desc": "HEX to RGB and HSL."
+ },
+ {
+  "id": "case",
+  "slug": "text-case-and-word-counter",
+  "cat": "Daily Life",
+  "name": "Text Case & Word Counter",
+  "desc": "Count words and switch text case."
+ },
+ {
+  "id": "tts",
+  "slug": "text-to-speech",
+  "cat": "Audio",
+  "name": "Text To Speech",
+  "desc": "Speak text aloud with your device's voices. Choose language, speed and pitch."
+ },
+ {
+  "id": "recorder",
+  "slug": "voice-recorder",
+  "cat": "Audio",
+  "name": "Voice Recorder",
+  "desc": "Record from your microphone and download the audio."
+ },
+ {
+  "id": "convert",
+  "slug": "image-converter",
+  "cat": "Image",
+  "name": "Image Converter",
+  "desc": "Convert between JPG, PNG and WEBP."
+ },
+ {
+  "id": "compress",
+  "slug": "image-compressor",
+  "cat": "Image",
+  "name": "Image Compressor",
+  "desc": "Shrink file size with adjustable quality."
+ },
+ {
+  "id": "resize",
+  "slug": "image-resizer",
+  "cat": "Image",
+  "name": "Image Resizer",
+  "desc": "Scale images down to a maximum width."
+ },
+ {
+  "id": "rotate",
+  "slug": "image-rotator-and-flipper",
+  "cat": "Image",
+  "name": "Image Rotator & Flipper",
+  "desc": "Rotate by 90° steps and flip horizontally or vertically."
+ },
+ {
+  "id": "crop",
+  "slug": "image-cropper",
+  "cat": "Image",
+  "name": "Image Cropper",
+  "desc": "Crop from the center to a chosen aspect ratio."
+ },
+ {
+  "id": "watermark",
+  "slug": "image-watermark-tool",
+  "cat": "Image",
+  "name": "Image Watermark Tool",
+  "desc": "Stamp repeating text across your images."
+ },
+ {
+  "id": "grayscale",
+  "slug": "black-and-white-converter",
+  "cat": "Image",
+  "name": "Black & White Converter",
+  "desc": "Turn photos into grayscale."
+ },
+ {
+  "id": "strip-meta",
+  "slug": "image-metadata-remover",
+  "cat": "Image",
+  "name": "Image Metadata Remover",
+  "desc": "Re-saves images without EXIF data such as GPS location and camera details."
+ },
+ {
+  "id": "picker",
+  "slug": "image-color-picker",
+  "cat": "Image",
+  "name": "Image Color Picker",
+  "desc": "Click anywhere on an image to read its color."
+ },
+ {
+  "id": "pdf-merge",
+  "slug": "pdf-merger",
+  "cat": "PDF",
+  "name": "PDF Merger",
+  "desc": "Combine several PDFs into one, in the order you choose them."
+ },
+ {
+  "id": "pdf-split",
+  "slug": "pdf-splitter-and-page-extractor",
+  "cat": "PDF",
+  "name": "PDF Splitter & Page Extractor",
+  "desc": "Keep only the pages you choose, such as 1-3, 5."
+ },
+ {
+  "id": "img-to-pdf",
+  "slug": "image-to-pdf",
+  "cat": "PDF",
+  "name": "Image to PDF",
+  "desc": "Put one or more images into a single PDF, one per page."
+ },
+ {
+  "id": "pdf-numbers",
+  "slug": "pdf-page-numbers",
+  "cat": "PDF",
+  "name": "PDF Page Numbers",
+  "desc": "Add \"1 / N\" numbering to the bottom of every page."
+ },
+ {
+  "id": "pdf-watermark",
+  "slug": "pdf-watermark-tool",
+  "cat": "PDF",
+  "name": "PDF Watermark Tool",
+  "desc": "Add a diagonal text watermark to every page."
+ },
+ {
+  "id": "qr",
+  "slug": "qr-code-generator",
+  "cat": "Daily Life",
+  "name": "QR Code Generator",
+  "desc": "Create a QR code for a link or text and download it as PNG."
+ },
+ {
+  "id": "lines",
+  "slug": "line-sorter-and-duplicate-remover",
+  "cat": "Text",
+  "name": "Line Sorter & Duplicate Remover",
+  "desc": "Clean up lists: remove duplicates, sort, reverse or shuffle lines."
+ },
+ {
+  "id": "lorem",
+  "slug": "lorem-ipsum-generator",
+  "cat": "Text",
+  "name": "Lorem Ipsum Generator",
+  "desc": "Placeholder paragraphs for layouts and mockups."
+ },
+ {
+  "id": "slug",
+  "slug": "slug-generator",
+  "cat": "Text",
+  "name": "Slug Generator",
+  "desc": "Turn titles into clean URL slugs, one per line."
+ },
+ {
+  "id": "summary",
+  "slug": "text-summarizer",
+  "cat": "Text",
+  "name": "Text Summarizer",
+  "desc": "Picks the most important sentences from your text (extractive, runs offline)."
+ },
+ {
+  "id": "csv-json",
+  "slug": "csv-to-json",
+  "cat": "Developer",
+  "name": "CSV to JSON",
+  "desc": "Convert CSV with a header row into JSON. Handles quoted fields."
+ },
+ {
+  "id": "timestamp",
+  "slug": "timestamp-converter",
+  "cat": "Developer",
+  "name": "Timestamp Converter",
+  "desc": "Convert Unix timestamps and dates. Leave blank for the current time."
+ },
+ {
+  "id": "random",
+  "slug": "random-number-generator",
+  "cat": "Daily Life",
+  "name": "Random Number Generator",
+  "desc": "Secure random integers in a range."
+ },
+ {
+  "id": "percent",
+  "slug": "percentage-calculator",
+  "cat": "Business",
+  "name": "Percentage Calculator",
+  "desc": "Percent of a number, ratio, and percent change."
+ },
+ {
+  "id": "compound",
+  "slug": "compound-interest-calculator",
+  "cat": "Business",
+  "name": "Compound Interest Calculator",
+  "desc": "Growth of a deposit with regular compounding."
+ },
+ {
+  "id": "datediff",
+  "slug": "date-calculator",
+  "cat": "Daily Life",
+  "name": "Date Calculator",
+  "desc": "Days, weeks and months between two dates."
+ },
+ {
+  "id": "timezone",
+  "slug": "time-zone-converter",
+  "cat": "Daily Life",
+  "name": "Time Zone Converter",
+  "desc": "Convert a date and time between any two time zones."
+ }
+]

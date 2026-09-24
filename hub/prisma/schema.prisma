@@ -1,0 +1,51 @@
+generator client { provider = "prisma-client-js" }
+datasource db { provider = "postgresql"; url = env("DATABASE_URL") }
+
+model User {
+  id           String    @id @default(cuid())
+  email        String    @unique
+  name         String?
+  passwordHash String
+  createdAt    DateTime  @default(now())
+  history      History[]
+}
+model History {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  toolId    String
+  createdAt DateTime @default(now())
+  @@index([userId, createdAt])
+}
+model Event {
+  id        String   @id @default(cuid())
+  toolId    String
+  type      String
+  createdAt DateTime @default(now())
+  @@index([toolId])
+  @@index([createdAt])
+}
+model ToolSetting {
+  toolId         String  @id
+  enabled        Boolean @default(true)
+  featured       Boolean @default(false)
+  seoTitle       String?
+  seoDescription String?
+  adText         String?
+  adUrl          String?
+}
+model Post {
+  id        String   @id @default(cuid())
+  slug      String   @unique
+  title     String
+  excerpt   String
+  body      String
+  createdAt DateTime @default(now())
+}
+model Message {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  message   String
+  createdAt DateTime @default(now())
+}
