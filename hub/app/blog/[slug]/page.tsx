@@ -8,7 +8,10 @@ export async function generateMetadata({ params }: P): Promise<Metadata> {
   return p ? { title: p.title, description: p.excerpt, alternates: { canonical: `/blog/${p.slug}` } } : {};
 }
 export default async function Page({ params }: P) {
-  const p = (await allPosts()).find((x) => x.slug === (await params).slug);
+  const { slug } = await params;
+  const posts = await allPosts();
+
+  const p = posts.find((x) => x.slug === slug);
   if (!p) notFound();
   return <main className="mx-auto max-w-3xl px-4 py-6"><h1 className="text-3xl font-bold">{p.title}</h1><p className="mb-6 text-sm text-slate-500">{p.createdAt}</p>
     {p.body.split("\n\n").map((para, i) => <p key={i} className="mb-4 leading-relaxed">{para}</p>)}</main>;
